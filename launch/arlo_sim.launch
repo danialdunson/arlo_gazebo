@@ -11,7 +11,7 @@ Simulate arlo base with a realsense camera plugin.
 
   <!-- URDF args -->
   <arg name="robot_model"                       default="$(arg ns)"/>
-  <arg name="robot_name"                        default="$(arg ns)"/>
+  <arg name="robot_name"                        value="$(arg ns)"/>
   <arg name="update_rate"                       default="15"/>
   <arg name="arm"                               default="false"/>
   <arg name="base_link_frame"                   default="arm_base_link"/>
@@ -26,7 +26,7 @@ Simulate arlo base with a realsense camera plugin.
   <arg name="debug"                             default="false"/> 
   <arg name="paused"                            default="true"/>
   <arg name="recording"                         default="false"/>
-  <arg name="use_sim_time"                      default="true"/>
+  <arg name="use_sim_time"                      value="true"/>
   <arg name="extra_gazebo_args"                 default=""/>
 
   <!-- robot starting location -->
@@ -39,7 +39,7 @@ Simulate arlo base with a realsense camera plugin.
   <arg name="move_base_flex"                    value="false"/>
 
 
-  <arg name="model"                             default="$(find arlo_gazebo)/urdf/turtlebot3_waffle_pi.urdf.xacro
+  <arg name="model"                             value="$(find arlo_gazebo)/urdf/turtlebot3_waffle_pi.urdf.xacro
                                                          robot_name:=$(arg robot_name)
                                                          arm_model:=$(arg ns)
                                                          base_link_frame:=$(arg base_link_frame)
