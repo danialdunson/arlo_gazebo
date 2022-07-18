@@ -1,5 +1,5 @@
 # arlo_gazebo
-This package simulates the arallax arlo robot in Gazebo. 
+This package simulates the Parallax Arlo Robot in Gazebo. 
 
 Please use `Gazebo Version> 9.19.x+`
 
