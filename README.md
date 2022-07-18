@@ -9,3 +9,6 @@ Download the following packages and place them in your workspace.
 |--------------       | ----------                                                                              |
 | aws-house            | [repository](https://github.com/aws-robotics/aws-robomaker-small-house-world)          |
 | realsense plugin    | [repository](https://github.com/pal-robotics/realsense_gazebo_plugin)                   |
+
+
+![This is an image](/resources/images/rviz_gazebo.png)
